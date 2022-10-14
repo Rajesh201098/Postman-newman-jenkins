@@ -9,10 +9,6 @@
     "api-test": "newman run test/New Collection.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Rajesh",
-<<<<<<< HEAD
   "dependencies": {
     "newman": "^5.3.2"
-  }
-=======
->>>>>>> 285ca88f3e87ecea700035cb2cc8f2249f5572eb
 }
