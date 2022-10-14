@@ -2,7 +2,6 @@
   "name": "postman-newman-jenkins",
   "version": "1.0.0",
   "description": "Stored Data for Testing",
-  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -10,5 +9,4 @@
     "api-test-production": "newman run test/New Collection.postman_collection.json"
   },
   "author": "Rajesh",
-  "license": "ISC"
 }
