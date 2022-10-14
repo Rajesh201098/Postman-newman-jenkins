@@ -6,10 +6,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "newman run test/jsonplaceholder.postman_collection.json"
+    "test": "newman run test/jsonplaceholder.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Rajesh",
   "dependencies": {
     "newman": "^5.3.2"
-  }
 }
